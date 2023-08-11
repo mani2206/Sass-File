@@ -1,0 +1,27 @@
+@import "./abstracts/variables";
+@import "./mixinis/breakpoints";
+@import "./abstracts/common";
+@import "./includes/header";
+@import "./includes/footer";
+// header
+.bg-image{
+    background-image: url("../../public/images/images2.jpg");
+    background-size: cover;
+    .circle{
+        color:white;
+    }
+}
+// section2
+.section2{
+    .carousel{
+        .carousel-indicators{
+            button{
+                width: 8px;
+                height: 8px;
+                border: 1px solid white;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
